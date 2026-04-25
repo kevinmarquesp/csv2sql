@@ -10,15 +10,15 @@ https://github.com/kevinmarquesp/csv_to_sql/assets/71402116/58e99629-bd08-4d5c-b
 ## Installation Process
 As I said, the important file is the `csv_to_sql/csv_to_sql.py` file, so the way to go is just copy and paste the contents of this file in somewhere on your `$PATH`. You can just select the text from your browser, open your text editor and paste its contents, or you can just follow the steps below:
 ```bash
-git clone https://github.com/kevinmarquesp/csv_to_sql
-cp csv_to_sql/csv_to_sql/csv_to_sql.py ~/.local/bin/csv_to_sql
-rm -rf csv_to_sql  #removes the cloned repository
+git clone https://github.com/kevinmarquesp/csv2sql
+cp csv2sql/csv_to_sql/csv_to_sql.py ~/.local/bin/csv2sql
+rm -rf csv2sql  #removes the cloned repository
 ```
 
 ## Uninstall Process
 To uninstall you'll need to remove this file from your system, so it depends on where you've installed it in the first place. But you followed the recommended steps to install in this document, you can uninstall with:
 ```bash
-rm ~/.local/bin/csv_to_sql
+rm ~/.local/bin/csv2sql
 ```
 
 ## Development & Contribution
